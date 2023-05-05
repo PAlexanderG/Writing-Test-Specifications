@@ -16,11 +16,16 @@ const Num1 = 2;
 const Num2 = 3;
 if (Num1 + Num1) {
   newNumber = "5";
-}
-console.log(newNumber);
 
-// Expect addition(2, 3) to be equal to 5
+  console.log(newNumber);
+
+  // Expect addition(2, 3) to be equal to 5
+} else if ((sumNumber = 5)) {
+  sumNumber === 5;
+}
 // Expect addition("a", 3) to be an error
+else {
+}
 
 // Functional test specifications can be worded slightly more naturally:
 
