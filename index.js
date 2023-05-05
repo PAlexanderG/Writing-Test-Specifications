@@ -12,6 +12,13 @@
 // Example: For the prompt "A function called "addition" that returns the sum of two input integers",
 // Your tests might include:
 // Expect addition(2, 3) to be a number
+const Num1 = 2;
+const Num2 = 3;
+if (Num1 + Num1) {
+  newNumber = "5";
+}
+console.log(newNumber);
+
 // Expect addition(2, 3) to be equal to 5
 // Expect addition("a", 3) to be an error
 
