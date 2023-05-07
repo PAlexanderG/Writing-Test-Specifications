@@ -42,14 +42,12 @@
 
 // # B) A function called "concatOdds" takes two arrays of integers as arguments. It should return a single
 // array that only contains the odd numbers, in ascending order, from both of the arrays.
-// Examples:
-// 1. Expected addition(Numb1 + Num2) to be (2Numbers)
-// 2. Expected addition(8 / 2) to be ("Correct Answer")
-// 3. Expected multiplation("2" * 4) to be ("undifined")
+
 // ## Integration Test:
 // - The ability to calculate any numbers result
 // - If user uses a string and and integer numbers give some result
 // - Gives some examples of correct results to the user
+// Exaples:
 // function concatOdd([3, 2, 1]), [9, 1, 1, 1, 4, 15, -1]) {
 //    return Math.abs(Numbers % 2) == 1;
 // if (condition1) {
@@ -64,3 +62,12 @@
 // A shopping cart checkout feature that allows a user to check out as a guest (without an account),
 // or as a logged-in user. They should be allowed to do either, but should be asked if they want to create
 // an account or log in if they check out as a guest.
+
+// - If the cart is empty should show in a corner of the screen the number (0) for the user to have
+// a visual of how many items he picked up.
+// - If the cart is empty, it should have a link that takes the client to the main page for shopping.
+// - The function should save any object the client reach out even though they forgot to picked the items.
+// - The function should have the option to add clients' zip code to tell if the item is available in
+// some near location storage to pick up.
+// - If the gueest don't want to create an account the function should save what he/she bought in case
+// they want to buy it again in the future to save time for the user.
