@@ -1,4 +1,4 @@
-// Overview
+// Overview Examples:
 // *Functional test specifications can be worded slightly more naturally:
 
 // When a user [does something with some parameters], [some thing should happen]
@@ -8,7 +8,7 @@
 // to sign up if they have not yet.
 // All possible users' actions to react with the "Log in" page you can be possible think.
 
-// 2. Overview:
+// 2. Overview Workshop:
 // One of the first steps for many TDD projects is determining
 // which tests need to be written for a project, feature, or piece of code.
 // These range from unit tests (at a very low level, what result we should
@@ -67,7 +67,8 @@
 // a visual of how many items he picked up.
 // - If the cart is empty, it should have a link that takes the client to the main page for shopping.
 // - The function should save any object the client reach out even though they forgot to picked the items.
-// - The function should have the option to add clients' zip code to tell if the item is available in
-// some near location storage to pick up.
+// - The function should have an option how clients want to buy (shipping, pickup, delivery).
+// - The function should have the option to add clients' zip code to tell them if the item is available in
+// some near location to pick up.
 // - If the gueest don't want to create an account the function should save what he/she bought in case
 // they want to buy it again in the future to save time for the user.
